@@ -16,5 +16,6 @@ AWS CloudFormation es un servicio que ayuda a simplificar la gestion de Infra y 
 
 A traves del servicio de CloudFormation se crea un template JSON o YAML que describe todos los recursos de AWS que necesitamos (por ej. Lambda,  API Gateway, instancias o un bucket s3), y CloudFormation se encarga de aprovisionar y configurar esos recursos. Con esto evitamos crear y configurar individualmente los recursos de AWS.
 
+En la siguiente figura se muestra una posible configuracion de recursos que se podria usar en machine learning cuando se quiere consumir un modelo y que para crearla se podria hacer con un cloudFormation template:
 
-![cff1](https://user-images.githubusercontent.com/42939877/175190680-c28ab50a-c141-4772-8072-d9163c7e5a8d.png)
+![cf3](https://user-images.githubusercontent.com/42939877/175192081-fe5e4dd8-af3b-4cc3-b61f-bdd3fd899cb4.png)
